@@ -1,1 +1,1 @@
-# guias-laboratorio-dsm
+# Guias de Laboratorio de DSM
