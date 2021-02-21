@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuintaApp</string>
+    <string name="saludo1">Hello User</string>
+    <string name="saludo2">Welcome</string>
+</resources>
