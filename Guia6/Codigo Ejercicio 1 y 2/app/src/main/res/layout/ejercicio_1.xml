@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/texto_conectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conectar"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:layout_marginVertical="40dp"
+        />
+
+    <EditText
+        android:id="@+id/input_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:paddingVertical="40dp"
+        android:layout_marginBottom="40dp"
+
+        android:layout_below="@+id/texto_conectar"
+        />
+
+    <EditText
+        android:id="@+id/input_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:paddingVertical="40dp"
+        android:layout_marginBottom="40dp"
+
+        android:layout_below="@+id/input_usuario"
+        />
+
+    <Button
+        android:id="@+id/boton_iniciar_sesion"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesion"
+        android:paddingVertical="40dp"
+        android:layout_marginBottom="40dp"
+
+        android:layout_below="@+id/input_contrasena"
+        />
+
+    <TextView
+        android:id="@+id/texto_olvidaste_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu constraseña?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0E8AEE"
+        android:textAlignment="center"
+
+        android:layout_below="@+id/boton_iniciar_sesion"
+        />
+
+</RelativeLayout>
