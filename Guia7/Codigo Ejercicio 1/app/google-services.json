@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207982959172",
+    "project_id": "septimaapp",
+    "storage_bucket": "septimaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207982959172:android:5062ca220fb7f389f87a11",
+        "android_client_info": {
+          "package_name": "com.udb.dsm.septimaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207982959172-4pu87n963iqrn1je0iia2anj377vnqbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC17WGe6Jft6hVqzUdxtl2H1AzI-t0sW3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207982959172-4pu87n963iqrn1je0iia2anj377vnqbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
