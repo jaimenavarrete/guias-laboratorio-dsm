@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textDui"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textNombre"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textFechaNacimiento"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textGenero"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textPeso"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/textAltura"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <View style="@style/Divider"/>
+
+</LinearLayout>
