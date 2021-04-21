@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/editCodigo"
+        android:inputType="number"
+        android:hint="Digite codigo de producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editDescripcion"
+        android:hint="Digite descripcion de producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editPrecio"
+        android:inputType="numberDecimal"
+        android:hint="Digite precio de producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:text="Guardar producto"
+        android:onClick="save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Cancelar"
+        android:onClick="cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
